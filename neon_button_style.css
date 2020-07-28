@@ -34,6 +34,7 @@ a span{
     display: block;
 }
 
+<!-- Adds a 'line' that will start at top left and go towards the right -->
 a span:nth-child(1){
     top: 0;
     left: -100%;
@@ -47,6 +48,7 @@ a:hover span:nth-child(1){
     transition: 1s;
 }
 
+<!-- Bottom line going from right to left -->
 a span:nth-child(3){
     bottom: 0;
     right: -100%;
@@ -61,6 +63,7 @@ a:hover span:nth-child(3){
     transition-delay: 0.5s;
 }
 
+<!-- Right line going from top to bottom -->
 a span:nth-child(2){
     top: -100%;
     right: 0;
@@ -75,6 +78,7 @@ a:hover span:nth-child(2){
     transition-delay: 0.25s;
 }
 
+<!-- Left line going from bottom to top -->
 a span:nth-child(4){
     bottom: -100%;
     left: 0;
